@@ -1,7 +1,11 @@
 //AutoPlay video inicio 
-var vid = document.getElementById("video-inicio");
-vid.autoplay = true;
-vid.load();
+window.onload = iniciarVideoInicio;
+
+function iniciarVideoInicio(){
+    var vid = document.getElementById("video-inicio");
+    vid.autoplay = true;
+    vid.load();
+}
 
 
 //AutoPlay con sonido carrousel galeria
