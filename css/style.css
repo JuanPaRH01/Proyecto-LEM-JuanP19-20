@@ -1,0 +1,315 @@
+/* Fuentes */
+@font-face{
+    font-family: "EthnoCentric";
+    src: url("./fonts/ethnocentric.ttf");
+}
+
+@font-face{
+    font-family: "Prototype";
+    src: url("./fonts/prototype.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat.ttf");
+}
+
+/* Global */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar*/
+.navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar-brand{
+    font-family: "EthnoCentric";
+    font-size: 1.75em;
+}
+
+.nav-link{
+    font-family: "Prototype";
+    font-size: 1.15em;
+    margin-left: 5px;
+}
+
+@media (max-width: 991.98px) {
+    .nav-link{
+        text-align: center;
+    }
+}
+
+.servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.servicios img{
+    width: 50%;
+}
+
+
+/* Main */
+header{
+    box-shadow: 0px -1px 10px #000;
+}
+
+section{
+    font-family: "Montserrat";
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.cursos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-curso{
+    margin: auto 0;
+}
+
+.title-curso{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.noticias{
+    width: 80%;
+    margin: 30px auto;
+    height: 100%;
+}
+
+.noticia h2{
+    font-weight: bold;
+}
+
+.noticia img{
+    float: left;
+    margin-right: 25px;
+}
+
+.noticia p{
+    text-align: justify;   
+}
+
+@media (max-width: 991.98px) {
+    .noticia p{
+        margin: 2px;  
+    }
+}
+
+.noticia hr{
+    color: #000;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+/* Parallax */
+
+.video-completo video{
+    width: 100%;
+}
+
+.parallax1{
+    margin-top: 2px;
+    width: 100%;
+    height: 75vh;
+    background-image: url(../img/parallax1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax2{
+    margin-top: 2px;
+    width: 100%;
+    height: 75vh;
+    background-image: url(../img/parallax2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-hero{
+    background: #111;
+    padding: 18px;
+    width: 320px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+
+/* Login */
+.logo{
+    font-family: "EthnoCentric";
+    font-size: 1.75em;
+    color: black;
+}
+
+#user-error, #pass-error {
+    display: block !important;
+    color: #da4644;
+    font-size: 11px;
+}
+
+.main-login .login_section form h1, .main-register .signup_section form h1 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 575px) {
+    .main-login .login_section form h1, .main-register .signup_section form h1 {
+        font-size: 28px;
+        margin-top: 0px;
+    }
+}
+
+.main-login .login_section form input[type="submit"], .main-login .btn_secundary, 
+.main-register .login_section form input[type="submit"], .main-register .btn_secundary{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 991px) {
+    .main-login .login_section form input[type="submit"], .main-login .btn_secundary, 
+    .main-register .login_section form input[type="submit"], .main-register .btn_secundary{
+        font-size: 10px;
+    }
+}
+
+.main-login .login_section form input[type="submit"],
+.main-register .login_section form input[type="submit"] {
+    background-color: #2cabee;
+    border: 1px solid #2cabee;
+    padding: 7px 40px;
+  }
+@media only screen and (min-width: 720px) and (max-width: 991px) {
+    .main-login .login_section form input[type="submit"],
+    .main-register .login_section form input[type="submit"] {
+        padding: 6px 20px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 719px) {
+    .main-login .login_section form input[type="submit"],
+    .main-register .login_section form input[type="submit"] {
+        padding: 5px 15px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .main-login .login_section form input[type="submit"],
+    .main-register .login_section form input[type="submit"] {
+        padding: 10px 40px;
+    }
+}
+
+.main-login .btn_secundary,
+.main-register .btn_secundary{
+    border: 2px solid #2cabee;
+    color: #2cabee;
+    margin-left: 4px;
+    padding: 7px 43px;
+}
+@media only screen and (min-width: 720px) and (max-width: 991px) {
+    .main-login .btn_secundary,
+    .main-register .btn_secundary{
+        padding: 5px 15px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 719px) {
+    .main-login .btn_secundary,
+    .main-register .btn_secundary{
+        padding: 6px 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .main-login .btn_secundary,
+    .main-register .btn_secundary{
+        padding: 10px 40px;
+    }
+}
+
+.main-login .btn_secundary:hover,
+.main-register .btn_secundary:hover{
+    background-color: #2cabee;
+    color: #ffffff;
+}
+/******************************************************************************/
+.container .login_section form .form-row .form-control, .container .signup_section form .form-row .form-control {
+width: 280px;
+font-size: 0.85rem;
+padding: 8px 20px;
+margin-top: 10px;
+}
+@media only screen and (max-width: 575px) {
+/* line 98, ../sass/stylesheet.scss */
+.container .login_section form .form-row .form-control, .container .signup_section form .form-row .form-control {
+width: 385px;
+font-size: 1.1rem;
+margin-top: 10px;
+padding: 12px 30px;
+}
+}
+
+/* line 110, ../sass/stylesheet.scss */
+.container .login_section form .form-check, .container .signup_section form .form-check {
+margin-top: 5px;
+line-height: 1.5;
+}
+@media only screen and (max-width: 575px) {
+/* line 110, ../sass/stylesheet.scss */
+.container .login_section form .form-check, .container .signup_section form .form-check {
+margin-top: 10px;
+}
+}
+
+/* Footer */
+#sticky-footer {
+    flex-shrink: none;
+}
+
+
