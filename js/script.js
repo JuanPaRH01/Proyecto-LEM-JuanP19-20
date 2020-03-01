@@ -21,4 +21,4 @@ $('#carousel-galeria').on('slid.bs.carousel', function (e) {
     if (elemento.prop("tagName") == "VIDEO") {
       elemento.get(0).pause();
     }
- });
+});
