@@ -40,44 +40,41 @@
         <h2>Galeria</h2>
     </section>
 
-    <div class="gallery-intro">
-        <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
+    <div class="gallery-intro container col-11">
+      <div id="carousel-galeria" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-          <li data-target="#video-carousel-example" data-slide-to="1"></li>
-          <li data-target="#video-carousel-example" data-slide-to="2"></li>
+          <li data-target="#carousel-galeria" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-galeria" data-slide-to="1"></li>
+          <li data-target="#carousel-galeria" data-slide-to="2"></li>
         </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
+        
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <video class="video-fluid" autoplay loop muted>
-              <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+            <video class="video-fluid w-100 h-90" loop autoplay>
+              <source src="../media/Miami4K.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel-item">
-            <video class="video-fluid" autoplay loop muted>
-              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+            <video class="video-fluid w-100 h-90" loop>
+              <source src="../media/Russia6K.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel-item">
-            <video class="video-fluid" autoplay loop muted>
-              <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+            <video class="video-fluid w-100 h-90" loop>
+              <source src="../media/NewYork4K.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+        
+        <a class="carousel-control-prev" href="#carousel-galeria" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carousel-galeria" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-        <!--/.Controls-->
+
       </div>
     </div>
 
@@ -94,5 +91,6 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
