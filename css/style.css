@@ -259,4 +259,17 @@ section{
     text-align: center;
 }
 
+.suscripcion input[type="text"],
+.suscripcion input[type="email"],
+.suscripcion input[type="url"], 
+.suscripcion input[type="date"]{
+    width: 60%;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.suscripcion input[type="submit"]{
+    margin: 1px;
+    background-color: rgba(255,255,255,.5);
+}
 
