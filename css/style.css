@@ -182,9 +182,9 @@ section{
 }
 
 /* Galeria */
-
 .gallery-intro{
     width: 100%;
+    margin-top: 20px;
 }
 
 .gallery-block{
@@ -248,6 +248,15 @@ section{
 /* Footer */
 #sticky-footer {
     flex-shrink: none;
+    margin-top: 0;
+}
+.redes .fab,
+.redes .fas{
+    color: rgba(255,255,255,.5);
+    margin: 2px;
+}
+.pre-footer{
+    text-align: center;
 }
 
 
